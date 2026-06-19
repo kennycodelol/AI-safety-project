@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <h1>Moral Decision Assistant</h1>
+    <p class="subtitle">Analyze the current page for ethical decisions you may face. Keep this window open during analysis — first run may take a few minutes while the model downloads.</p>
+    <button id="analyzeBtn">Analyze Page</button>
+    <progress id="progress" class="progress" max="1" hidden></progress>
+    <p id="status" class="status" aria-live="polite"></p>
+    <div id="result" class="result"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
